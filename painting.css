@@ -2,11 +2,29 @@
   box-sizing: border-box;
 }
 
+a:link {
+    color: black;
+    font-family:"Kaiti TC";
+}
+
+a:visited {
+    color: #5a2f18;
+    /*color:#8FBC8F;*/
+}
+
+a:hover {
+    color:#836942;
+}
+
+a:active {
+    color:#0b4a54;
+}
+
 .column {
   float: left;
   width: 25%;
   padding: 7px;
-  border: 2px red solid;
+  /*border: 2px red solid;*/
 }
 
 .column img {
@@ -19,7 +37,7 @@
 
 .row {
     margin-top:-20px;
-    border: 2px purple solid;
+    /*border: 2px purple solid;*/
 }
 
 .row:after {
@@ -33,7 +51,7 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 80px;
   left: 0;
   top: 0;
   width: 100%;
@@ -50,6 +68,8 @@
   padding: 0;
   width: 100%;
   max-width: 800px;
+  height: 100%;
+  max-height: 800px;
 }
 
 /* The Close Button */
@@ -108,15 +128,16 @@
   font-size: 12px;
   padding:0px;
   position: absolute;
-  top: 0;
-  border: 2px red solid;
+  top: 0px;
+  /*border: 2px red solid;*/
 }
 
 .caption-container {
   text-align: center;
   background-color: white;
-  padding: 2px 16px;
+  padding: 20px 0px;
   color: grey;
+  /*border: 2px green solid;*/
 }
 
 .demo {

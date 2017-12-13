@@ -6,7 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jiachen Zeng (Teresa)</title>
     <link rel="stylesheet" href="style.css">
+    <style media="screen">
+        body{
+            background-image: url("images/drawing/17.16.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            background-attachment: scroll;
+            padding-bottom: 1040px;
+        }
 
+        h1{
+            color: white;
+            font-size: 24px;
+            margin-top: 0px;
+            text-shadow: 1px 1px 2px black;
+            /*border: 2px yellow solid;*/
+        }
+        h2{
+            color: white;
+            margin-top: -20px;
+            font-size: 20px;
+            padding: 7px;
+            z-index: 3;
+            text-shadow: 1px 1px 2px black;
+            /*border: 2px red solid;*/
+        }
+
+        a:link {
+            color: white;
+            font-family:"Kaiti TC";
+        }
+
+        a:visited {
+            color: lightyellow;
+            /*color:#8FBC8F;*/
+        }
+
+        a:hover {
+            color:lightblue;
+        }
+
+        a:active {
+            color:lightgreen;
+        }
+
+        #php{
+            color: white;
+        }
+
+        footer {
+            color: white;
+            position: absolute;
+            bottom:0;
+        }
+
+        @media only screen and (max-width: 767px) {
+        body {
+            background-image: url(images/drawing/17.16.jpg);
+        }
+        }
+    </style>
 
 </head>
 
@@ -36,8 +96,7 @@
                 <button type="button" onclick="showAbout()">关于｜About</button>
                 <div id="About" style="display:none">
                     <div class="subtitles"><a href="biography.html">Biography</a></div>
-                    <div class="subtitles"><a href="Artitststatement.html">Artist Statement</a></div>
-                    <div class="subtitles"><a href="publiccollection.html">Public Collection</a></div>
+                    <div class="subtitles"><a href="artiststatement.html">Artist Statement</a></div>
                 </div>
 
             </div></div>
@@ -46,7 +105,7 @@
             <div class="headline">
                 <button type="button" onclick="showWork()">作品｜Work</button>
                 <div id="Work" style="display:none">
-                    <div class="subtitles"><a href="Painting.html">Painting</a></div>
+                    <div class="subtitles"><a href="painting.html">Painting</a></div>
                     <div class="subtitles"><a href="drawing.html">Drawing</a></div>
                     <div class="subtitles"><a href="installation.html">Installation</a></div>
                     <div class="subtitles"><a href="design.html">Design</a></div>
@@ -60,7 +119,6 @@
             <div class="headline">
                 <button type="button" onclick="showContact()">联系｜Contact</button>
                 <div id="Contact" style="display:none">
-                    <p></p>
                     <form id="php" action="/action_page.php">
                     Email: <input type="text" name="Email"><br>
                     Comment: <input type="text" name="Comment"><br><br>

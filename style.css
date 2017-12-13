@@ -4,22 +4,21 @@
 }
 
 body {
-    background-color: white;
     color: black;
     font-family: 'Kaiti SC', cursive;
     box-sizing: border-box;
-    margin: 20px;
+    margin: 30px;
+    margin-top: -20px;
 }
 
 header {
     align-items: center;
-    background-color: white;
     height: 300px;
     padding-top: 5px;
     margin: 0;
     color: black;
     z-index: 9;
-    border: 2px blue solid;
+    /*border: 2px blue solid;*/
 }
 
 footer{
@@ -35,43 +34,68 @@ footer{
 #name{
     text-align: right;
     z-index: 9;
-    border: 2px orange solid;
+    /*border: 2px orange solid;*/
 }
 h1{
     font-size: 24px;
-    margin-top: 10px;
-    border: 2px yellow solid;
+    margin-top: 0px;
+    /*border: 2px yellow solid;*/
 }
 h2{
     margin-top: -20px;
     font-size: 20px;
     padding: 7px;
     z-index: 3;
-    border: 2px red solid;
+    /*border: 2px red solid;*/
 }
 
 h3{
-    margin-top: -35px;
-    padding-left: 18px;
+    margin-top: -30px;
+    padding-left: 20px;
     font-size: 22px;
     z-index: 3;
-    border: 2px green solid;
+    /*border: 2px green solid;*/
+}
+
+h5{
+    margin-top: -30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    z-index: 3;
+}
+
+h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    /*border: 2px yellowgreen solid;*/
 }
 
 p{
-    font-size: 24px;
+    margin-top: -30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
     line-height:1;
-    border: 2px purple solid;
+    /*border: 2px purple solid;*/
+}
+
+p.lineheightbig {
+    margin-top: -44px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+p.lineheightsmall {
+    line-height: 150%;
 }
 
 section {
     text-align: center;
     margin-top: -1%;
-    border: 2px pink solid;
-}
-
-.bar {
-    border: solid green 2px;
+    /*border: 2px pink solid;*/
 }
 
 .titles{
@@ -80,14 +104,15 @@ section {
     text-align: center;
     width: 25%;
     z-index: 2;
-    border: 2px blue solid;
+    /*border: 2px blue solid;*/
 }
 
 .headline{
     font-family: "Kaiti TC", cursive;
     display: inline-table;
-    text-align: right;
-    border: 2px red solid;
+    width: 20%;
+    text-align: center;
+    /*border: 2px brown solid;*/
 }
 
 .titles > .headline{
@@ -95,46 +120,34 @@ section {
     width: 100%;
 }
 
-.bar > .titles {
-    padding-right: 8px;
+.bar{
+    /*border: 2px black solid;*/
 }
 
 .titles {
-    align-items: center;
+    align-items: baseline;
     width: 20%;
+    /*border: 2px blue solid;*/
 }
 
 .subtitles {
-    text-align: right;
+    text-align: center;
+    /*border: 2px yellow solid;*/
 }
 
 a {
     font-size: 12px;
-}
-
-a:link {
-    color: black;
-    font-family:"Kaiti TC";
-}
-
-a:visited {
-    color: #5a2f18;
-    /*color:#8FBC8F;*/
-}
-
-a:hover {
-    color:#836942;
-}
-
-a:active {
-    color:#0b4a54;
+    text-decoration: none;
 }
 
 button{
+    border-radius: 3px;
     font-size: 14px;
     /*margin-left: 50px;*/
 }
 
 #php{
+    position: static;
     font-size: 12px;
+    text-align: right;
 }
